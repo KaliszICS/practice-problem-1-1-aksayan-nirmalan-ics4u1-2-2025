@@ -4,18 +4,24 @@ public class PracticeProblem {
 		
 	}
 
-	public static int sum2D(int[][] intsum2D) {
+	public static int sum2D(int[][] intsum2D){
 		//Write question 1 code here
 		//int sum=0;
 		
 		int sum=0;
 		for (int row=0; row < intsum2D.length;row++){
 			for(int col=0; col < intsum2D[row].length;col++){
-				sum +=intsum2D[row][col];
+				sum= sum+intsum2D[row][col];
+				
 			}
+			
 		}
 		return sum;
+
 	}
+		
+		
+	
 	
 
 	public static int sumRow(int[][] intsumRow, int row) {
