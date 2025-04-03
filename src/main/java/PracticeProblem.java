@@ -11,7 +11,7 @@ public class PracticeProblem {
 		int sum=0;
 		for (int row=0; row < intsum2D.length;row++){
 			for(int col=0; col < intsum2D[row].length;col++){
-				sum = sum + intsum2D[row][col];
+				sum +=intsum2D[row][col];
 			}
 		}
 		return sum;
